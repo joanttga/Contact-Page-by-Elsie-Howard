@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Contact Page</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="img/contact-form-icon.svg" alt="Logo">
+    </header>
+
+    <main>
+        <div class="description">
+            <h1 id="titulo">Interested in our <br> business pricing?</h1>
+            <p>Fill out the form to view details and we’ll <br> contact you as soon as possible.</p>
+        </div>
+
+        <div class="form">
+            <form action="">
+                <label for="name">Name</label>
+                <label id="labelEmail" for="companyEmail">Company Email</label>
+
+                <input type="text" placeholder="Ethan Johnson" name="name">
+                <input id="inputEmail" type="email" placeholder="ethan@johnson.com" name="companyEmail">
+
+                <label for="companySize">Company Size</label>
+                <label id="labelEmail" for="subject">Subject</label>
+
+                <select class="combobox">
+                    <option value="opcion1"
+                        style="background-image: url('data:image/svg+xml;utf8,<svg width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;><path d=&quot;M18 9L12 15L6 9&quot; stroke=&quot;%23111729&quot; stroke-width=&quot;2&quot;/></svg>');">
+                        50-100 employees</option>
+                    <option value="opcion2"
+                        style="background-image: url('data:image/svg+xml;utf8,<svg width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;><path d=&quot;M18 9L12 15L6 9&quot; stroke=&quot;%23111729&quot; stroke-width=&quot;2&quot;/></svg>');">
+                        100-150 employees</option>
+                    <option value="opcion3"
+                        style="background-image: url('data:image/svg+xml;utf8,<svg width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;><path d=&quot;M18 9L12 15L6 9&quot; stroke=&quot;%23111729&quot; stroke-width=&quot;2&quot;/></svg>');">
+                        150-200 employees</option>
+                </select>
+
+                <select id="inputEmail" class="combobox">
+                    <option value="opcion1"
+                        style="background-image: url('data:image/svg+xml;utf8,<svg width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;><path d=&quot;M18 9L12 15L6 9&quot; stroke=&quot;%23111729&quot; stroke-width=&quot;2&quot;/></svg>');">
+                        Building Landing pages</option>
+                    <option value="opcion2"
+                        style="background-image: url('data:image/svg+xml;utf8,<svg width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;><path d=&quot;M18 9L12 15L6 9&quot; stroke=&quot;%23111729&quot; stroke-width=&quot;2&quot;/></svg>');">
+                        Creating Landing Pages</option>
+                    <option value="opcion3"
+                        style="background-image: url('data:image/svg+xml;utf8,<svg width=&quot;24&quot; height=&quot;24&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;><path d=&quot;M18 9L12 15L6 9&quot; stroke=&quot;%23111729&quot; stroke-width=&quot;2&quot;/></svg>');">
+                        Developing Landing Pages</option>
+                </select>
+                <label for="message">Message</label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <input id="boton" type="submit" value="Contact Sales">
+
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

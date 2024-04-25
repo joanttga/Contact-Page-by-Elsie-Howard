@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('data:image/svg+xml;utf8,<svg width="1280" height="1148" viewBox="0 0 1280 1148" xmlns="http://www.w3.org/2000/svg"><rect width="1280" height="1148" fill="url(%23paint0_linear_776_2215)"/><defs><linearGradient id="paint0_linear_776_2215" x1="467" y1="-14.4612" x2="1362.19" y2="1174.65" gradientUnits="userSpaceOnUse"><stop stop-color="%23AE2D5D" stop-opacity="0.88"/><stop offset="0.293984" stop-color="%237429C6"/><stop offset="0.677083" stop-color="%2346208F"/><stop offset="1" stop-color="%232A4DD0" stop-opacity="0.94"/><stop offset="1" stop-color="%232A4DD0"/></linearGradient></defs></svg>');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-left: 40px;
+    /* Espacio en el lado izquierdo */
+    margin-right: 40px;
+    /* Espacio en el lado derecho */
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 44px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centra los elementos hijos verticalmente */
+    align-items: center;
+    /* Centra los elementos hijos horizontalmente */
+}
+
+#titulo {
+    margin-bottom: 16px;
+}
+
+.description {
+    text-align: center;
+    /* Centra el texto */
+}
+
+.description h1,
+.description p {
+    margin: 0 auto;
+    /* Margen automático a los lados, lo que centra los elementos */
+    max-width: 600px;
+    /* Opcional: establece un ancho máximo para evitar que el texto se extienda demasiado */
+}
+
+.description h1 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    /* Aplica la fuente 'Be Vietnam Pro' */
+    font-size: 40px;
+    color: #F8FAFC;
+}
+
+.description p {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    /* Aplica la fuente 'Be Vietnam Pro' */
+    color: #F8FAFC;
+    font-size: 20px;
+}
+
+.form {
+    background-color: rgba(205, 213, 224, 0.5);
+    border-radius: 20px;
+    width: 750px;
+    padding: 32px;
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+
+label {
+    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    /* Espacio entre las filas */
+    margin-right: 18px;
+    width: 364px;
+    /* Ancho de los elementos (50% del contenedor menos el espacio entre ellos) */
+    padding-left: 0%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #F8FAFC;
+}
+
+input {
+    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    /* Espacio entre las filas */
+    margin-right: 18px;
+    width: 328px;
+    height: 45px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 10px;
+    border: none;
+}
+
+#inputEmail {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#labelEmail {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+input:focus {
+    border-color: #FFFFFF;
+    outline: none;
+}
+
+.combobox {
+    width: 364px;
+    height: 45px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-color: #FFFFFF;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    /* Espacio entre las filas */
+    margin-right: 18px;
+
+}
+
+select:focus {
+    border-color: #FFFFFF;
+    outline: none;
+}
+
+textarea {
+    border-color: #FFFFFF;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    width: 728px;
+    padding-left: 18px;
+    padding-top: 24px;
+    margin-top: 4px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    resize: none;
+}
+
+textarea:focus {
+    border-color: #FFFFFF;
+    outline: none;
+
+}
+
+#boton {
+    width: 746px;
+    background-color: #FFFFFF;
+    color: #4036A9;
+    border: none;
+    /* Sin borde */
+    height: 45px;
+    border-radius: 5px;
+    /* Bordes redondeados */
+    font-family: 'Be Vietnam Pro', sans-serif;
+    /* Fuente 'Be Vietnam Pro' */
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
